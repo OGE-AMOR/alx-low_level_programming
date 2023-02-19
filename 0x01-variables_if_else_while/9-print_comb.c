@@ -14,9 +14,10 @@ int main(void)
 		if (num != 57)
 		{
 			putchar(',');
-			putchar((' ')); '\n';
+			putchar(' ');
 		}
 	}
+	putchar('\n');
 
 	return (0);
 }
